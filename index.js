@@ -5,7 +5,7 @@ app.use(express.json());
 app.use(express.urlencoded({'extended':'true'}))
 
 let products = [
-  {id : 1, name : 'Canapé', price : 250},
+  {id : 1, name : 'Canapé convertible', price : 250},
   {id : 2, name : 'Table', price : 150},
   {id : 3, name : 'Buffet', price : 70},
   {id : 4, name : 'Chaise', price : 45},
